@@ -1,0 +1,13 @@
+use nmvn;
+#create table customers(roll_no int primary key,sname varchar(30),gender varchar(1) check(gender in('f','m')),qualification varchar(30),age int check(age between 18 and 100),ismarried varchar(1) check(ismarried in('y','n')),annual_income int);
+#insert into customers values(1,'dhanu','f','bsc',21,'n',100000),(2,'sreesha','f','bsc',22,'n',180000),(3,'suhaina','f','bba',24,'n',170000),(4,'viji','f','bba',24,'y',190000),(5,'rakshana','f','be',27,'y',200000),(6,'keerthi','f','be',27,'y',200000),(7,'steliya','f','me',25,'n',160000),(8,'kishor','m','be',27,'n',200000),
+#(9,'rajesh','m','be',23,'n',230000),(10,'oviya','f','bcom',25,'n',160000),(11,'siva','m','msc',30,'y',180000),(12,'karthi','m','bcom',19,'n',200000),(13,'kavi','m','mba',24,'y',300000),(14,'parthiban','m','bcom',23,'n',400000),(15,'priya','f','m.phil',31,'y',500000),(16,'muthu','m','m.ed',30,'n',300000),(17,'sivamurugan','m','mcom',28,'y',280000),(18,'malathi','f','bcom',27,'y',300000),
+#(19,'dhanush','m','m.phil',36,'y',460000),(20,'nathiya','f','bsc',21,'n',200000),(21,'janani','f','bsc',22,'y',280000),(22,'gokul','m','mba',32,'n',320000),(23,'kaviya','f','ba',21,'y',140000),(24,'indhu','f','b.ed',28,'n',340000),(25,'sharmila','f','bcom',22,'n',150000),(26,'chitra','f','sslc',37,'y',390000),(27,'logesh','m','hsc',43,'y',400000),(28,'tamil','m','mcom',29,'n',270000),(29,'madhu','f','bcom',21,'n',300000),
+#(30,'hari','m','b.ed',29,'n',570000),(31,'harish','m','bcom',39,'y',470000),(32,'vanila','f','sslc',43,'n',360000),(33,'jaya','f','hsl',37,'y',450000),(34,'geetha','f','bsc',32,'n',370000),(35,'pavithra','f','bba',34,'y',470000),(36,'yoga','f','bcom',31,'n',250000),(37,'gobika','f','mcom',20,'n',430000),(38,'karthika','f','b.ed',22,'n',240000),(39,'peerthi','f','sslc',27,'y',540000),(40,'harani','f','bsc',24,'n',340000),
+#(41,'palani','m','mcom',34,'y',670000),(42,'udhya','f','bcom',25,'n',360000),(43,'arasan','m','cse',22,'n',230000),(44,'arasi','f','cse',22,'n',450000),(45,'giri','m','cse',19,'n',230000),(46,'raj','m','dip',30,'n',270000),(47,'uma','f','cse',32,'y',260000),(48,'praba','m','dip',33,'y',170000),(49,'anadhini','f','nursing',28,'y',140000),
+#(50,'akash','m','medical',30,'n',240000),(51,'kamaraj','m','sslc',41,'y',340000);
+#select * from customers;
+#create table childtable(rno int primary key,monthly_expense int,roll_no int ,foreign key(roll_no) references customers(roll_no));
+#insert  into childtable values(111,10000,11),(122,30000,22),(123,40000,23),(124,45000,24),(125,25000,25),(126,13000,26),(127,50000,27),(128,54000,28),(129,23000,29),(130,28000,30);
+#SELECT * FROM childtable;
+ 

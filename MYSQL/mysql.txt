@@ -1,0 +1,11 @@
+sno    sname       mark
+1001   dhanusree   66.9
+1002   sreesha     55.9
+1003   suhaina     77.9
+1004   viji        75.9
+1005  rakshana     65.9
+1006  Keerthi      68.9
+1007  dharani      68.9
+1008  karthi       68.9
+1009  sabari       68.9
+1010  siva         45.9
